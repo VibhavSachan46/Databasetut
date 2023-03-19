@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "959306175684",
+    "project_id": "database-tutorial-a54e5",
+    "storage_bucket": "database-tutorial-a54e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959306175684:android:599b0d240e65b820ece591",
+        "android_client_info": {
+          "package_name": "com.example.databasetut"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959306175684-dt9pr8elr2noafomolrvb1gt4nm49nv1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwEH1znDY8qb4XhuIstRNNcqZ5cEvjgKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959306175684-dt9pr8elr2noafomolrvb1gt4nm49nv1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
