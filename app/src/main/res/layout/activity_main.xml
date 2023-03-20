@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/etName"
+
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         app:boxStrokeColor="@color/teal_200"
@@ -18,6 +18,7 @@
         app:hintTextColor="@color/teal_700">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
@@ -26,7 +27,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/etmail"
+
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         app:boxStrokeColor="@color/teal_200"
@@ -35,6 +36,7 @@
         app:hintTextColor="@color/teal_700">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
@@ -43,15 +45,17 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/etpassword"
+
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         app:boxStrokeColor="@color/teal_200"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        app:hintTextColor="@color/teal_700">
+        app:hintTextColor="@color/teal_700"
+        app:endIconMode="password_toggle">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etpassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
@@ -60,7 +64,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/etuniqueId"
+
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         app:boxStrokeColor="@color/teal_200"
@@ -69,6 +73,7 @@
         app:hintTextColor="@color/teal_700">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etuniqueId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Unique Id.."/>
